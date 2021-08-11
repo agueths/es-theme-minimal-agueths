@@ -166,6 +166,7 @@ License: creative commons CC-BY-NC-SA
       <showSnapshotNoVideo>true</showSnapshotNoVideo>
       <showSnapshotDelay>true</showSnapshotDelay>
       <snapshotSource>image</snapshotSource>
+	  <effect>none</effect>
     </video>
 	
     <text name="md_description">
