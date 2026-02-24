@@ -9,19 +9,28 @@ License: creative commons CC-BY-NC-SA
   
   <view name="screen">
     <text name="clock">
-      <pos>0.8 0.01</pos>
-      <fontSize>0.04</fontSize>
-	  <size>0.2 0.025</size>
+      <pos>0.8 0</pos>
+      <!-- <fontSize>0.04</fontSize> -->
+      <fontSize>0.038</fontSize>
+	    <size>0.2 0.025</size>
       <color>FFFFFFC0</color>
       <fontPath>./assets/SST.ttf</fontPath>
     </text>
+    <batteryIndicator name="batteryIndicator">
+      <!-- <size>0.05</size> -->
+	    <size>0.7 0.07</size>
+      <pos>0.78 0.0</pos>
+      <color>FFFFFFC0</color>
+      <fontPath>./assets/SST.ttf</fontPath>
+    </batteryIndicator>
   </view>
   
   <view name="system">
     <helpsystem name="help">
 	  <textColor>FFFFFF90</textColor>
       <iconColor>FFFFFF90</iconColor>
-      <fontSize>0.038</fontSize>
+      <!-- <fontSize>0.038</fontSize> -->
+      <fontSize>0.028</fontSize>
 	  <pos>0.018 0.95</pos>
     </helpsystem>
   </view>
@@ -30,7 +39,8 @@ License: creative commons CC-BY-NC-SA
     <helpsystem name="help">
 	  <textColor>FFFFFF90</textColor>
       <iconColor>FFFFFF90</iconColor>
-      <fontSize>0.038</fontSize>
+      <!-- <fontSize>0.038</fontSize> -->
+      <fontSize>0.028</fontSize>
 	  <pos>0.018 0.95</pos>
     </helpsystem>
   </view>

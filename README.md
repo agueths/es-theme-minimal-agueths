@@ -1,14 +1,4 @@
-# es-theme-minimal-agueths
-
-Fork from [ES-Theme-Minimal-ArkOS](https://github.com/Jetup13/es-theme-minimal-arkos)
-
-Most icons from [Silhouette White by Dreambrace (Onion Themes)](https://github.com/OnionUI/Themes/blob/main/generated/icons_standalone/index.md)
-
-All added backgrounds are AI generated (Chat GPT, mostly).
-
-I made some customizations. Hopefully someone like it too.
-
-
+# es-theme-minimal
 
 **Words from the creator [lilbud](https://github.com/lilbud)**
 

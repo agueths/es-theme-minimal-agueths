@@ -37,12 +37,13 @@ License: creative commons CC-BY-NC-SA
 	
     <menuText name="menutext">
       <fontPath>./assets/SST.ttf</fontPath>
-      <fontSize>0.038</fontSize>
+      <fontSize>0.03</fontSize>
       <color>A6C6D1</color>
-      <selectorColor>0F85A5</selectorColor>
-      <selectorColorEnd>0F6585</selectorColorEnd>
+      <selectorColor>49585e</selectorColor>
+      <selectorColorEnd>303030</selectorColorEnd>
       <selectedColor>ffffff</selectedColor>
-      <separatorColor>0C3F53</separatorColor>
+      <!-- <separatorColor>0C3F53</separatorColor> -->
+      <separatorColor>4d4d4d</separatorColor>
     </menuText>
 	
     <menuTextSmall name="menutextsmall">
@@ -51,7 +52,7 @@ License: creative commons CC-BY-NC-SA
     </menuTextSmall>
 	
     <menuBackground name="menubg">
-      <color>0A354A</color>
+      <color>303030</color>
       <cornerSize>32 32</cornerSize>
       <path>./assets/frame.png</path>
     </menuBackground>
@@ -68,13 +69,13 @@ License: creative commons CC-BY-NC-SA
       <linearSmooth>true</linearSmooth>
       <path>./assets/bg.png</path>
       <zIndex>0</zIndex>
-      <color>10667f</color>
+      <color>808080</color>
     </image>
 	
     <image name="logo">
       <path>./art/${system.theme}.svg</path>
-	  <path>./art/${system.theme}.png</path>
-      <reflexion>0.16 0.0</reflexion>
+	    <path>./art/${system.theme}.png</path>
+      <!-- <reflexion>0.16 0.0</reflexion> -->
       <!-- <verticalAlignment>bottom</verticalAlignment> -->
       <reflexionOnFrame>true</reflexionOnFrame>
     </image>
@@ -121,14 +122,14 @@ License: creative commons CC-BY-NC-SA
       <color>10667f</color>
     </image>
 	
-    <image name="backgroundx" extra="true">
+    <!-- <image name="backgroundx" extra="true">
       <size>1 1</size>
       <pos>0 0</pos>
       <origin>0 0</origin>
       <path>./assets/gamelist.png</path>
       <zIndex>0</zIndex>
       <color>FFFFFFFF</color>
-    </image>
+    </image> -->
 	
     <text name="system_name" extra="true">
       <text>${system.fullName}</text>
@@ -145,31 +146,51 @@ License: creative commons CC-BY-NC-SA
       <visible>false</visible>
     </text>
 	
-    <rating name="md_rating">
+    <!-- <rating name="md_rating">
       <visible>false</visible>
-    </rating>
+    </rating> -->
 	
-    <image name="md_thumbnail">
+    <!-- <image name="md_thumbnail">
       <visible>false</visible>
       <origin>0.5 0.5</origin>
       <pos>0.5 0.5</pos>
       <minSize>1.25 1.25</minSize>
       <color>FFFFFF0A</color>
-    </image>
+    </image> -->
 	
     <video name="md_video">
 	
       <origin>0.5 0.5</origin>
       <pos>0.776 0.388</pos>
       <maxSize>0.347 0.46</maxSize>
-      <delay>0.7</delay>
+      <delay>1.5</delay>
       <showSnapshotNoVideo>true</showSnapshotNoVideo>
       <showSnapshotDelay>true</showSnapshotDelay>
       <snapshotSource>image</snapshotSource>
-	  <effect>none</effect>
+	    <effect>none</effect>
     </video>
+
+      <rating name="md_rating">
+         <!-- <pos>0.605 0.600</pos> -->
+      <pos>0.7 0.69</pos>
+         <size>0 0.04</size>
+         <zIndex>12</zIndex>
+         <filledPath>./assets/rating_filled.svg</filledPath>
+         <unfilledPath>./assets/rating_unfilled.svg</unfilledPath>
+         <visible>true</visible>
+      </rating>
+      
+      <text name="md_genre">
+        <pos>0.605 0.8</pos>
+        <size>0.347 0.06</size>
+        <color>ffffff</color>
+        <fontSize>0.025</fontSize>
+        <fontPath>./assets/noto.ttf</fontPath>
+        <alignment>center</alignment>
+        <visible>true</visible>
+      </text>
 	
-    <text name="md_description">
+    <!-- <text name="md_description">
 	
       <pos>0.605 0.685</pos>
       <size>0.347 0.183</size>
@@ -177,7 +198,7 @@ License: creative commons CC-BY-NC-SA
       <fontSize>0.025</fontSize>
       <fontPath>./assets/noto.ttf</fontPath>
 	  
-    </text>
+    </text> -->
 	
     <image name="logo">
       <pos>1 1</pos>
@@ -190,22 +211,22 @@ License: creative commons CC-BY-NC-SA
   <view name="basic, detailed">
   
     <textlist name="gamelist">
-      <selectorColor>0f85a5</selectorColor>
-      <selectorColorEnd>0F6585</selectorColorEnd>
+      <selectorColor>49585e</selectorColor>
+      <selectorColorEnd>303030</selectorColorEnd>
       <selectedColor>ffffff</selectedColor>
       <primaryColor>ffffff</primaryColor>
       <secondaryColor>ffffff</secondaryColor>
-      <fontPath>./assets/SST.ttf</fontPath>
-      <fontSize>0.03</fontSize>
+      <!-- <fontPath>./assets/SST.ttf</fontPath> -->
+      <fontSize>0.025</fontSize>
       <pos>0.051 0.170</pos>
       <size>0.50 0.70</size>
       <alignment>left</alignment>
       <horizontalMargin>0.01</horizontalMargin>
       <origin>0 0</origin>
       <lineSpacing>2.1</lineSpacing>
-      <selectorImagePath>./assets/box.png</selectorImagePath>
-      <selectorOffsetY>-0.01</selectorOffsetY>
-      <selectorHeight>0.0675</selectorHeight>
+      <!-- <selectorImagePath>./assets/box.png</selectorImagePath> -->
+      <!-- <selectorOffsetY>0</selectorOffsetY>
+      <selectorHeight>0.05625</selectorHeight> -->
     </textlist>
 	
   </view>
@@ -283,20 +304,42 @@ License: creative commons CC-BY-NC-SA
     </text>-->
   </view>
   <view name="system">
-  
-    <carousel name="systemcarousel">
+
+<carousel name="systemcarousel">
       <type>horizontal</type>
-      <pos>0 0.41</pos>
-      <size>1 0.3925</size>
+      <size>1 1</size>
+      <pos>0 0.33</pos>
       <origin>0 0</origin>
-      <color>00000000</color>
-      <logoScale>1</logoScale>
-      <logoSize>0.25 0.155</logoSize>
-      <logoPos>-1 0</logoPos>
+      <logoSize>0.12 0.10</logoSize>
+
+      <logoPos>-1 0.1</logoPos>
+      <maxLogoCount>6</maxLogoCount>
+      <logoScale>2</logoScale>
+      
+      
+      <color>ffffff00</color>
+      <defaultTransition>fade</defaultTransition>
+      <zIndex>10</zIndex>
     </carousel>
-	
+    
+    <!-- SYSTEMS -->
+    <text name="systemName" extra="true">
+      <text>${system.fullName}</text>
+      <fontSize>0.04</fontSize>
+      <fontPath>./../assets/SST.ttf</fontPath>
+      <lineSpacing>1</lineSpacing>
+      <alignment>center</alignment>
+      <forceUppercase>1</forceUppercase>
+      <color>ffffff</color>
+
+      <!-- <origin>0 0</origin> -->
+      <pos>0 0.3</pos>
+      <size>1 0.04</size>
+      <zIndex>15</zIndex>
+    </text>
+
     <text name="systemInfo">
-      <pos>0 0.66</pos>
+      <pos>0 0.77</pos>
       <size>1 0.25</size>
       <backgroundColor>00000000</backgroundColor>
       <color>ffffff</color>
@@ -312,17 +355,21 @@ License: creative commons CC-BY-NC-SA
   </variables>
   
   <subset name="fullscreenfix" displayName="${fullscreenfixSubsetname}">
+  <include name="4:3">./fullscreenv.xml</include>
   <include name="ES Header">./header.xml</include>
   <include name="ES Fullscreen">./fullscreen.xml</include>
-  <include name="4:3">./fullscreenv.xml</include>
   </subset>
 
   <subset name="background" displayName="${backgroundSubsetname}">
-    <include name="default"/>
-    <include name="earth">./assets/bg2.xml</include>
-    <include name="abstract">./assets/bg4.xml</include>
-    <include name="vinyl">./assets/bg1.xml</include>
-    <include name="lake">./assets/bg3.xml</include>
+    <include name="final-fantasy-pixel">./assets/final-fantasy-pixel.xml</include>
+    <include name="minimal"/>
+    <include name="circuit">./assets/circuit.xml</include>
+    <include name="dark-fantasy">./assets/dark-fantasy.xml</include>
+    <include name="final-fantasy">./assets/final-fantasy.xml</include>
+    <include name="mystic-fantasy">./assets/mystic-fantasy.xml</include>
+    <include name="nature">./assets/nature.xml</include>
+    <include name="retro-room">./assets/retro-room.xml</include>
+    <include name="steam-punk">./assets/steam-punk.xml</include>
   </subset>
   
 </theme>
