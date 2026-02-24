@@ -8,6 +8,7 @@ All added backgrounds are AI generated (Chat GPT, mostly).
 
 I made some customizations. Hopefully someone like it too.
 
+# ORIGINAL README \/
 
 
 **Words from the creator [lilbud](https://github.com/lilbud)**
