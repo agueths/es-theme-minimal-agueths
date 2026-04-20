@@ -8,22 +8,19 @@ All added backgrounds are AI generated (Chat GPT, mostly).
 
 I made some customizations. Hopefully someone like it too.
 
-# ORIGINAL README \/
-
+## ORIGINAL README \/
 
 **Words from the creator [lilbud](https://github.com/lilbud)**
 
 > This theme is an attempt at making EmulationStation look more like a game system.
-
 > Modern Game Systems (PS4, Xbox One, Switch, etc.) deliver a very specific experience compared to a computer. You turn it on, see a simple boot screen, and are in the menu in seconds. You know what you are getting in to. It's made abundantly clear that this is a video game machine. The games are front and center, and everything is wrapped up in a clean, minimal, interface...
-
 > That is what I believe sets a game system apart from the Raspberry Pi. Sure, the interface is fast, and somewhat nice looking. But it doesn't feel like a video game system. This is where the Minimal theme steps in.
 
-**This theme was made by lilbud / https://github.com/lilbud/es-theme-minimal**
+**This theme was made by lilbud / <https://github.com/lilbud/es-theme-minimal>**
 
 ---
 
-# Abilities
+## Abilities
 
 This theme is super sleak and you can set VRAM to 40MB on a Raspberry system. \
 So this is the smallest theme in foorprint as far as I know. \
@@ -45,7 +42,7 @@ You can get rid off the "blurry" looking overlay by altering the overlay color i
 		</image>
 ```
 
-# Changes
+## Changes
 
 2019/06/05
 
@@ -67,7 +64,7 @@ Enabled help system, this is can be disabled/enabled into ES now
 * 2019/10/04
   * Added OpenBOR system, ripped from RetroPie with some heavy recoloring
 
-# Preview
+## Preview
 
 Get in touch with the original theme author in [this thread via RetroPie Forum](https://retropie.org.uk/forum/topic/12435/)
 
